@@ -14,7 +14,7 @@ function largestSwap(val){
   return val.toString().split("").sort((a,b)=>parseInt(a)-parseInt(b)).reverse().join("")==val
 }
 
-function getTime(){
+function getTime(test){
    let match=test.match(/\b([0-1][0-9]|2[0-3])\:[0-5][0-9](?=[^0-9]{0,1})/)
 if (match){
     return (match)[0]
