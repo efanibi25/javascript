@@ -11,7 +11,6 @@ function num_of_digits(input){
     return Array.from((input).toString()).filter((x)=>x.match(/\d/)).length
 }
 function arrayOfMultiples(num,len){
-    console.log(num)
     return Array(len).fill().map((e,i)=>(i+1)*num)
 }
 function concat(...arrays){
