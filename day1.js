@@ -2,7 +2,7 @@ function minMax(input){
     return [Math.max(...input),Math.min(...input)]
 }
 function addUp(target){
-  Array(target).fill(null).map((_,i)=>i+1).reduce((accumulator,currentValue)=>{
+  return Array(target).fill(null).map((_,i)=>i+1).reduce((accumulator,currentValue)=>{
     return currentValue+accumulator
 })
 }
