@@ -14,3 +14,8 @@ function arrayOfMultiples(num,len){
     console.log(num)
     return Array(len).fill().map((e,i)=>(i+1)*num)
 }
+function concat(...arrays){
+
+    return arrays.reduce((accumulator, currentValue) => accumulator.concat(currentValue) ,
+  [],)
+}
