@@ -18,3 +18,6 @@ function concat(...arrays){
     return arrays.reduce((accumulator, currentValue) => accumulator.concat(currentValue) ,
   [],)
 }
+function sortIt(input){
+    return input.sort()
+}
